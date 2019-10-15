@@ -39,7 +39,7 @@ By default it displays 5 posts.
 Place this shortcode in any template parts of your theme.
 
 `
-<?php echo do_shortcode('[posts_order posts=3 section=Section1]'); ?>
+<?php echo do_shortcode('[posts_order posts=3 section="Section1"]'); ?>
 `
 
 == Installation ==

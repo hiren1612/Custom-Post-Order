@@ -282,7 +282,7 @@
 				</form>
 				<p><b>Note: </b> Simply drag and drop the posts into the desired position and update.</p>';
 	    $ulist.="<p>Place shortcode <span> <b>[posts_order posts=2 section=porder_name]</b> </span> in wordpress page, post or text widget.</p>";
-	    $ulist.="<p>Place the code <span> <b>&lt;?php do_shortcode('[posts_order posts=2 section=porder_name]'); ?&gt;</b> </span> in template files.</p>";
+	    $ulist.="<p>Place the code <span> <b>&lt;?php do_shortcode('[posts_order posts=2 section=\"porder_name\"]'); ?&gt;</b> </span> in template files.</p>";
 		return $ulist; 
 	}
 
