@@ -3,7 +3,7 @@
 Plugin Name: Custom posts Order
 Plugin URI: https://wordpress.org/plugins/custom-posts-order/
 Description: Allows you to order the posts with simple Drag and Drop Sortable capability.
-Version: 4.2
+Version: 4.3
 Author: Hiren Patel, hikebranding
 Author URI: https://hikebranding.com
 License: GPLv2 or later

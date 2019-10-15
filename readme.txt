@@ -3,7 +3,7 @@ Contributors: hiren1612,hikebranding
 Donate link: https://hikebranding.com
 Tags: order, reorder, ordering, orderby, manage, display,  custom,  listing, list, drag, drop, easy, simple, widget, page, post, sortable
 Requires at least: 3.0.1
-Tested up to: 5.2.2
+Tested up to: 5.2.4
 Stable tag: 4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -74,4 +74,7 @@ Contact us at http://www.satvikinfotech.com/
 * fixed some bugs.
 
 = v4.2 =
+* fixed some bugs.
+
+= v4.3 =
 * fixed some bugs.

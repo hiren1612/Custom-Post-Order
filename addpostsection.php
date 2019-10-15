@@ -238,6 +238,7 @@
 					<ul id="PostOrderList">';
 		
 		global $wpdb;
+		$database_table = $wpdb->prefix . 'options';
 		$count_posts = wp_count_posts(); 
 		$published_posts = $count_posts->publish;
 	    $allgetposts = get_posts(array('posts_per_page'=>$published_posts)); 
@@ -246,7 +247,7 @@
 	    {
 			$allprostsids[] = $allgetpost->ID;
 	    }
-		$getdata = $wpdb->get_results("SELECT option_value FROM wp_options WHERE option_name='porder_name_$current_list'") or die(mysql_error());
+		$getdata = $wpdb->get_results("SELECT option_value FROM $database_table WHERE option_name= 'porder_name_".$current_list."'") or die(mysql_error());
 	    $newpost='';
 	    foreach($getdata as $gpost){
 			$newpost = $gpost->option_value;
